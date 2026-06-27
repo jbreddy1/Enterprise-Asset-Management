@@ -3,6 +3,6 @@
         <element label="Description" max_length="40" name="description" type="string"/>
         <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Category Name" mandatory="true" max_length="40" name="category_name" type="string"/>
-        <element label="Category Code" mandatory="true" max_length="40" name="category_code" type="string"/>
+        <element label="Category Code" max_length="40" name="category_code" type="string"/>
     </element>
 </database>

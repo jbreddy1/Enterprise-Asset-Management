@@ -4,7 +4,7 @@
         <element label="Cost" max_length="38" name="cost" type="decimal"/>
         <element label="Asset" mandatory="true" max_length="32" name="asset" reference="x_1958814_enterp_0_asset" type="reference"/>
         <element label="Reported By" mandatory="true" max_length="32" name="reported_by" reference="x_1958814_enterp_0_employee" type="reference"/>
-        <element label="Repair Number" mandatory="true" max_length="40" name="repair_number" type="string"/>
+        <element label="Repair Number" max_length="40" name="repair_number" type="string"/>
         <element choice="1" label="Repair Status" mandatory="true" max_length="40" name="repair_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Reported" sequence="0" value="reported"/>

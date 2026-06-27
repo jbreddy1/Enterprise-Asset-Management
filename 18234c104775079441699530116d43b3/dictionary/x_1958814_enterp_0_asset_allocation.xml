@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="402dc5dc477d079441699530116d43a1" label="Asset Allocation" max_length="40" name="x_1958814_enterp_0_asset_allocation" type="collection">
-        <element label="Allocation Number" mandatory="true" max_length="40" name="allocation_number" type="string"/>
+        <element label="Allocation Number" max_length="40" name="allocation_number" type="string"/>
         <element choice="1" label="Allocation Status" mandatory="true" max_length="40" name="allocation_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Lost" sequence="2" value="lost"/>

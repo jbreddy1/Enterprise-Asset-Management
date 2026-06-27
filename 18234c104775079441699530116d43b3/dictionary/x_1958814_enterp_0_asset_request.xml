@@ -24,7 +24,7 @@
                 <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
             </choice>
         </element>
-        <element label="Request Number" mandatory="true" max_length="40" name="request_number" type="string"/>
+        <element label="Request Number" max_length="40" name="request_number" type="string"/>
         <index name="index">
             <element name="asset_category"/>
         </index>

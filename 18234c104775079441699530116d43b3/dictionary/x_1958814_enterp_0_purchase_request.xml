@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
-        <element label="Purchase Number" mandatory="true" max_length="40" name="purchase_number" type="string"/>
+        <element label="Purchase Number" max_length="40" name="purchase_number" type="string"/>
         <element label="Estimated Cost" max_length="38" name="estimated_cost" type="decimal"/>
         <element label="Expected Delivery Date" max_length="40" name="expected_delivery_date" type="glide_date"/>
         <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="x_1958814_enterp_0_vendor" type="reference"/>

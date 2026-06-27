@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9fab851c477d079441699530116d437e" label="Asset" max_length="40" name="x_1958814_enterp_0_asset" type="collection">
-        <element label="Asset ID" mandatory="true" max_length="40" name="asset_id" type="string"/>
+        <element label="Asset ID" max_length="40" name="asset_id" type="string"/>
         <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Warranty Expiry" max_length="40" name="warranty_expiry" type="glide_date"/>
         <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">

@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1958814_enterp_0_department</collection>
+        <collection>x_1958814_enterp_0_asset</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Auto Generate Department Code</name>
+        <name>Auto Generate Asset ID</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,30 +31,30 @@
 
     var generator = new AutoNumberGenerator();
 
-    current.department_code = generator.generate(
-        'x_1958814_enterp_0_department',
-        'department_code',
-        'DEP'
+    current.asset_id = generator.generate(
+        'x_1958814_enterp_0_asset',
+        'asset_id',
+        'AST'
     );
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-27 13:02:37</sys_created_on>
+        <sys_created_on>2026-06-27 13:16:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8482dae04775c79441699530116d4342</sys_id>
+        <sys_id>0666dae84775c79441699530116d43b2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Auto Generate Department Code</sys_name>
+        <sys_name>Auto Generate Asset ID</sys_name>
         <sys_overrides/>
         <sys_package display_value="Enterprise Asset Management" source="x_1958814_enterp_0">18234c104775079441699530116d43b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
-        <sys_update_name>sys_script_8482dae04775c79441699530116d4342</sys_update_name>
+        <sys_update_name>sys_script_0666dae84775c79441699530116d43b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-27 13:11:03</sys_updated_on>
+        <sys_updated_on>2026-06-27 13:26:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=8482dae04775c79441699530116d4342"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0666dae84775c79441699530116d43b2"/>
 </record_update>

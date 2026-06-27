@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1958814_enterp_0_repair_request</name>
         <next_element/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1958814_enterp_0_repair_request_repair_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-26 16:37:13</sys_updated_on>
+        <sys_updated_on>2026-06-27 13:37:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

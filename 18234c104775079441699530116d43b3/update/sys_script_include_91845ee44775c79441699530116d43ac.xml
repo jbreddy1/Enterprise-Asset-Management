@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1958814_enterp_0.AutoNumberGenerator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AutoNumberGenerator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AutoNumberGenerator = Class.create();
+AutoNumberGenerator.prototype = {
+
+    initialize: function() {
+    },
+
+    generate: function(tableName, fieldName, prefix) {
+
+        var gr = new GlideRecord(tableName);
+        gr.orderByDesc(fieldName);
+        gr.setLimit(1);
+        gr.query();
+
+        var nextNumber = 1;
+
+        if (gr.next()) {
+
+            var value = gr.getValue(fieldName);
+
+            if (value) {
+
+                var number = parseInt(value.replace(prefix, ''), 10);
+
+                if (!isNaN(number)) {
+                    nextNumber = number + 1;
+                }
+            }
+        }
+
+        return prefix + ('0000' + nextNumber).slice(-4);
+    },
+
+    type: 'AutoNumberGenerator'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-27 13:09:31</sys_created_on>
+        <sys_id>91845ee44775c79441699530116d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoNumberGenerator</sys_name>
+        <sys_package display_value="Enterprise Asset Management" source="x_1958814_enterp_0">18234c104775079441699530116d43b3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_update_name>sys_script_include_91845ee44775c79441699530116d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-27 13:09:31</sys_updated_on>
+    </sys_script_include>
+</record_update>
