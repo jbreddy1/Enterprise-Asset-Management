@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1958814_enterp_0_repair_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1958814_enterp_0_repair_request">repair_status=completed^EQ<item display_value="Completed" endquery="false" field="repair_status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Complete Repair</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    var assetGR = new GlideRecord('x_1958814_enterp_0_asset');
+
+    if (assetGR.get(current.asset)) {
+
+        assetGR.status = 'Available';
+
+        assetGR.update();
+
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-27 16:14:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73ce362c47b9c79441699530116d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complete Repair</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Asset Management" source="x_1958814_enterp_0">18234c104775079441699530116d43b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_update_name>sys_script_73ce362c47b9c79441699530116d4322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-27 16:14:02</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=73ce362c47b9c79441699530116d4322"/>
+</record_update>
