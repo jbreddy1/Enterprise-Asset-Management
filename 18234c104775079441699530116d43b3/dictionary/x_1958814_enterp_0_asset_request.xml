@@ -2,6 +2,7 @@
     <element db_object_id="d71c855c477d079441699530116d43f0" label="Asset Request" max_length="40" name="x_1958814_enterp_0_asset_request" type="collection">
         <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Asset Category" mandatory="true" max_length="32" name="asset_category" reference="x_1958814_enterp_0_asset_category" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_1958814_enterp_0_department" type="reference"/>
         <element label="IT Comments" max_length="40" name="it_comments" type="string"/>
         <element label="Requested Date" mandatory="true" max_length="40" name="requested_date" type="glide_date_time"/>
         <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_1958814_enterp_0_employee" type="reference"/>
@@ -29,6 +30,9 @@
             <element name="asset_category"/>
         </index>
         <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
             <element name="employee"/>
         </index>
     </element>

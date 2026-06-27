@@ -15,7 +15,7 @@
         <element label="Actual Return Date" max_length="40" name="actual_return_date" type="glide_date"/>
         <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
         <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Asset" mandatory="true" max_length="32" name="asset" reference="x_1958814_enterp_0_asset" type="reference"/>
+        <element label="Asset" mandatory="true" max_length="32" name="asset" reference="x_1958814_enterp_0_asset" reference_qual="status=available^active=true" reference_qual_condition="status=available^active=true" type="reference"/>
         <index name="index">
             <element name="asset"/>
         </index>
