@@ -8,7 +8,7 @@
                 <element inactive_on_update="false" label="Returned" sequence="1" value="returned"/>
             </choice>
         </element>
-        <element label="Asset Request" mandatory="true" max_length="32" name="asset_request" reference="x_1958814_enterp_0_asset_request" type="reference"/>
+        <element label="Asset Request" max_length="32" name="asset_request" reference="x_1958814_enterp_0_asset_request" type="reference"/>
         <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_1958814_enterp_0_employee" type="reference"/>
         <element label="Remarks" max_length="40" name="remarks" type="string"/>
         <element label="Allocation Date" mandatory="true" max_length="40" name="allocation_date" type="glide_date_time"/>
