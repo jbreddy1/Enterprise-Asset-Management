@@ -12,7 +12,7 @@
         <map_page/>
         <mobile_title>Asset Return</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1958814_enterp_0_asset_allocation</name>
+        <name>x_1958814_enterp_0_asset_return</name>
         <order>800</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -25,15 +25,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>374d4a6c47f1c79441699530116d43d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Asset Return</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1958814_enterp_0_asset_return</sys_name>
         <sys_overrides/>
         <sys_package display_value="Enterprise Asset Management" source="x_1958814_enterp_0">18234c104775079441699530116d43b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
         <sys_update_name>sys_app_module_374d4a6c47f1c79441699530116d43d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-27 12:36:53</sys_updated_on>
+        <sys_updated_on>2026-06-27 16:04:00</sys_updated_on>
         <timeline_page/>
         <title>Asset Return</title>
         <uncancelable>false</uncancelable>
