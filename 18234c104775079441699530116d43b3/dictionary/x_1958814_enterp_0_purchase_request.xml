@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46211dd447bd079441699530116d43d3" label="Purchase Request" max_length="40" name="x_1958814_enterp_0_purchase_request" type="collection">
+        <element choice="1" label="Purchase Status" mandatory="true" max_length="40" name="purchase_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Ordered" sequence="2" value="ordered"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Delivered" sequence="3" value="delivered"/>
+            </choice>
+        </element>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Purchase Number" mandatory="true" max_length="40" name="purchase_number" type="string"/>
+        <element label="Estimated Cost" max_length="38" name="estimated_cost" type="decimal"/>
+        <element label="Expected Delivery Date" max_length="40" name="expected_delivery_date" type="glide_date"/>
+        <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="x_1958814_enterp_0_vendor" type="reference"/>
+        <element label="Requested Date" mandatory="true" max_length="40" name="requested_date" type="glide_date_time"/>
+        <element label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="x_1958814_enterp_0_employee" type="reference"/>
+        <element label="Asset Category" mandatory="true" max_length="32" name="asset_category" reference="x_1958814_enterp_0_asset_category" type="reference"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <index name="index">
+            <element name="asset_category"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="272e6cd047b9079441699530116d436b" label="Department" max_length="40" name="x_1958814_enterp_0_department" type="collection">
+        <element label="Manager" max_length="32" name="manager" reference="x_1958814_enterp_0_employee" type="reference"/>
+        <element default="1" label="Active" max_length="255" name="active" type="boolean"/>
+        <element label="Department Code" mandatory="true" max_length="40" name="department_code" type="string"/>
+        <element display="true" label="Department Name" mandatory="true" max_length="40" name="department_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e1b01d8477d079441699530116d43f5" label="Asset Category" max_length="40" name="x_1958814_enterp_0_asset_category" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Category Name" mandatory="true" max_length="40" name="category_name" type="string"/>
+        <element label="Category Code" mandatory="true" max_length="40" name="category_code" type="string"/>
+    </element>
+</database>

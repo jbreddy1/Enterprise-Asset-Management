@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f14e419047bd079441699530116d4365" label="Repair Request" max_length="40" name="x_1958814_enterp_0_repair_request" type="collection">
+        <element label="Reported Date" mandatory="true" max_length="40" name="reported_date" type="glide_date_time"/>
+        <element label="Cost" max_length="38" name="cost" type="decimal"/>
+        <element label="Asset" mandatory="true" max_length="32" name="asset" reference="x_1958814_enterp_0_asset" type="reference"/>
+        <element label="Reported By" mandatory="true" max_length="32" name="reported_by" reference="x_1958814_enterp_0_employee" type="reference"/>
+        <element label="Repair Number" mandatory="true" max_length="40" name="repair_number" type="string"/>
+        <element choice="1" label="Repair Status" mandatory="true" max_length="40" name="repair_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reported" sequence="0" value="reported"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Technician Remarks" max_length="40" name="technician_remarks" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_1958814_enterp_0_vendor" type="reference"/>
+        <element label="Completed Date" max_length="40" name="completed_date" type="glide_date"/>
+        <element label="Issue Description" mandatory="true" max_length="40" name="issue_description" type="string"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="reported_by"/>
+        </index>
+        <index name="index3">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

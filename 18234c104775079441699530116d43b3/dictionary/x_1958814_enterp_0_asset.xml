@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9fab851c477d079441699530116d437e" label="Asset" max_length="40" name="x_1958814_enterp_0_asset" type="collection">
+        <element label="Asset ID" mandatory="true" max_length="40" name="asset_id" type="string"/>
+        <element default="1" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Warranty Expiry" max_length="40" name="warranty_expiry" type="glide_date"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Under Repair" sequence="2" value="under_repair"/>
+                <element inactive_on_update="false" label="Lost" sequence="4" value="lost"/>
+                <element inactive_on_update="false" label="Retired" sequence="3" value="retired"/>
+                <element inactive_on_update="false" label="Allocated" sequence="1" value="allocated"/>
+            </choice>
+        </element>
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element display="true" label="Asset Name" mandatory="true" max_length="40" name="asset_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Brand" mandatory="true" max_length="40" name="brand" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Logitech" sequence="7" value="logitech"/>
+                <element inactive_on_update="false" label="Dell" sequence="0" value="dell"/>
+                <element inactive_on_update="false" label="Asus" sequence="5" value="asus"/>
+                <element inactive_on_update="false" label="Apple" sequence="3" value="apple"/>
+                <element inactive_on_update="false" label="HP" sequence="1" value="hp"/>
+                <element inactive_on_update="false" label="Epson" sequence="9" value="epson"/>
+                <element inactive_on_update="false" label="Lenovo" sequence="2" value="lenovo"/>
+                <element inactive_on_update="false" label="Other" sequence="10" value="other"/>
+                <element inactive_on_update="false" label="Canon" sequence="8" value="canon"/>
+                <element inactive_on_update="false" label="Samsung" sequence="6" value="samsung"/>
+                <element inactive_on_update="false" label="Acer" sequence="4" value="acer"/>
+            </choice>
+        </element>
+        <element label="Asset Category" mandatory="true" max_length="32" name="asset_category" reference="x_1958814_enterp_0_asset_category" type="reference"/>
+        <element label="Serial Number" mandatory="true" max_length="40" name="serial_number" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <index name="index">
+            <element name="asset_category"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="579d891047bd079441699530116d4345" label="Asset Return" max_length="40" name="x_1958814_enterp_0_asset_return" type="collection">
+        <element label="Return Number" mandatory="true" max_length="40" name="return_number" type="string"/>
+        <element choice="1" label="Return Condition" mandatory="true" max_length="40" name="return_condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Excellent" sequence="0" value="excellent"/>
+                <element inactive_on_update="false" label="Fair" sequence="2" value="fair"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="good"/>
+                <element inactive_on_update="false" label="Damaged" sequence="3" value="damaged"/>
+            </choice>
+        </element>
+        <element label="Received By" mandatory="true" max_length="32" name="received_by" reference="x_1958814_enterp_0_employee" type="reference"/>
+        <element label="Asset Allocation" mandatory="true" max_length="32" name="asset_allocation" reference="x_1958814_enterp_0_asset_allocation" type="reference"/>
+        <element label="Return Date" mandatory="true" max_length="40" name="return_date" type="glide_date_time"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <index name="index">
+            <element name="asset_allocation"/>
+        </index>
+        <index name="index2">
+            <element name="received_by"/>
+        </index>
+    </element>
+</database>
