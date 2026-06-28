@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="8c02f0d847b9079441699530116d4332" sys_domain="global" table="x_1958814_enterp_0_employee" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>full_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>632d5ddc47fd079441699530116d43c0</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>9be49ffc47f94b9441699530116d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>full_name</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>ef2d5ddc47fd079441699530116d43c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>department</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>6f2d5ddc47fd079441699530116d43c1</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>53e49ffc47f94b9441699530116d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_joining</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>eb2d5ddc47fd079441699530116d43c2</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>dfe49ffc47f94b9441699530116d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>5fe49ffc47f94b9441699530116d43d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>job_title</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>6b2d5ddc47fd079441699530116d43c3</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>dbe49ffc47f94b9441699530116d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>employee_id</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>e72d5ddc47fd079441699530116d43c4</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>5be49ffc47f94b9441699530116d43d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>672d5ddc47fd079441699530116d43c5</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>d7e49ffc47f94b9441699530116d43d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>active</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>e32d5ddc47fd079441699530116d43c6</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>57e49ffc47f94b9441699530116d43d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>email</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>632d5ddc47fd079441699530116d43c7</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>d3e49ffc47f94b9441699530116d43d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>status</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>ef2d5ddc47fd079441699530116d43c7</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>53e49ffc47f94b9441699530116d43d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>phone_number</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>6f2d5ddc47fd079441699530116d43c8</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>dfe49ffc47f94b9441699530116d43d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,29 +158,15 @@
             <element>manager</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>eb2d5ddc47fd079441699530116d43c9</sys_id>
+            <sys_created_on>2026-06-28 12:27:54</sys_created_on>
+            <sys_id>5fe49ffc47f94b9441699530116d43da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
+            <sys_updated_on>2026-06-28 12:27:54</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 14:27:46</sys_created_on>
-            <sys_id>6b2d5ddc47fd079441699530116d43ca</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_employee" sys_domain="global" view="Default view">8c02f0d847b9079441699530116d4332</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 14:27:46</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
