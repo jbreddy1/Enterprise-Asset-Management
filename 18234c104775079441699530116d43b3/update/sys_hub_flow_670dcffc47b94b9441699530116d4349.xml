@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>asset_request_approval_flow</internal_name>
-        <label_cache>[{"name":"Asset Request Approval_1.current.employee.manager.user","label":"Trigger - Record Asset Request Approval➛Asset Request Record➛Employee➛Manager➛user","reference":"sys_user","reference_display":"user","type":"reference","base_type":"reference","parent_table_name":"x_1958814_enterp_0_employee","column_name":"user","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"98775689-eb5d-4b37-b554-840690dc1c0f":["approval_conditions"]},"attributes":null},{"name":"Asset Request Approval_1.current","label":"Trigger - Record Asset Request Approval➛Asset Request Record","reference":"x_1958814_enterp_0_asset_request","reference_display":"Asset Request","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"98775689-eb5d-4b37-b554-840690dc1c0f":["record"],"889246c7-be18-41eb-8ecf-27e5db3d7767":["record"]},"attributes":{"":""}}]</label_cache>
+        <label_cache>[{"name":"98775689-eb5d-4b37-b554-840690dc1c0f.approval_state","label":"2➛Approval State","reference":null,"reference_display":"Approval State","type":"choice","base_type":"choice","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Asset Request Approval_1.current","label":"Trigger - Record Asset Request Approval➛Asset Request Record","reference":"x_1958814_enterp_0_asset_request","reference_display":"Asset Request","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"98775689-eb5d-4b37-b554-840690dc1c0f":["record"],"e591bce3-6d73-4599-859a-3452d9fa10bf":["record"],"889246c7-be18-41eb-8ecf-27e5db3d7767":["record"],"a0914c37-a4cf-4bb4-afba-da9459c9da21":["record"]},"attributes":{"":""}},{"name":"Asset Request Approval_1.current.employee.manager.user","label":"Trigger - Record Asset Request Approval➛Asset Request Record➛Employee➛Manager➛user","reference":"sys_user","reference_display":"user","type":"reference","base_type":"reference","parent_table_name":"x_1958814_enterp_0_employee","column_name":"user","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"98775689-eb5d-4b37-b554-840690dc1c0f":["approval_conditions"]},"attributes":null}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>670dcffc47b94b9441699530116d4349</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Asset Request Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Enterprise Asset Management" source="x_1958814_enterp_0">18234c104775079441699530116d43b3</sys_package>
@@ -46,11 +46,11 @@
         <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
         <sys_update_name>sys_hub_flow_670dcffc47b94b9441699530116d4349</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-28 12:31:39</sys_updated_on>
+        <sys_updated_on>2026-06-28 12:57:58</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>4cc55b70473d4b9441699530116d4396</version_record>
+        <version_record>a1cb13bc473d4b9441699530116d4382</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=670dcffc47b94b9441699530116d4349"/>
     <sys_variable_value action="delete_multiple" query="document_key=670dcffc47b94b9441699530116d4349"/>
@@ -261,7 +261,31 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=670dcffc47b94b9441699530116d4349^sys_idNOT IN853f0b3447f94b9441699530116d4307,889ecbf047b94b9441699530116d4359"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=670dcffc47b94b9441699530116d4349^sys_idNOT IN47ab1f7c473d4b9441699530116d43fd,853f0b3447f94b9441699530116d4307,889ecbf047b94b9441699530116d4359,c70b1f38473d4b9441699530116d4396"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Asset Request Approval Flow">670dcffc47b94b9441699530116d4349</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>68eb5cab-a277-4187-9237-30c72c501f99</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 12:57:23</sys_created_on>
+        <sys_id>47ab1f7c473d4b9441699530116d43fd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 12:57:48</sys_updated_on>
+        <ui_id>e591bce3-6d73-4599-859a-3452d9fa10bf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VW2siMRj9K5JnGWa8ob6VirDQbcEWX7olxOQbzZK5NJdWV/zv+2Umo9Z2uxb6sIX1Ld8lOed4DnO/JVKQMemBiJNRMuDdpNvtxHFn2EsWg+4i6YguA0hIm+QsA5zUwAst8PzElPOF7fbCGLCtGTw6MLZ1UZa6wCZNIu60htzudjgupCkV28zDFlb4SiqBfTK+f2iTkml8wIIm4+1J61yEii1A4eisgXgK2W5KfxYFdxniorIpXoXNSei0vk2wg0seThK3Cawt5AIQSMqUgTbJWC6YLfSGjK12WNDAxE2uNvuJlcxtTTRjayN/4cu92M+lgMx4EGF/pEGgupxOmGW3eDO3Tu/1KiQHU2siIGVO2cvjWj1wU1pZ5PWKZQvVbBfKZfl1rQjZX3D0fziDIKD0PD3ymlZ6uyqeZw3IqcwrSQJFVXCm9idmrZYLZz2cLQEFlcYZK0uZL6k3hayWEUoWLRUeolQVz/imkcs8YtzjjlBVFk2xPqnKc6alJ/Edr8HlXZuYjblUzJgDFdSQPjqPpCYWKNBKhUoCWjnBL3MtS3uBTz1BAL5rhwzEnXcdBgdDVdY3RxnQtfepscw688PFcRft+xO4BfHa+3+Z/lguzkDd5GIqQQnzBo2QCwsZwrRAa1ovo3EXmq15aO7T8WnxSAZx9fsfkn83JIv+e3bjo4O7ju48BGVNk1F/OEx6FN8GXdKYMv/1oCETr8Py4uPy4XScAbdJx11lg7fhNwE5rV0d77au60YIRv/TcjH8SokINL58JP4UhIffTQuJ8zMJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47ab1f7c473d4b9441699530116d43fd"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
@@ -310,8 +334,86 @@
         <values>H4sIAAAAAAAA/+1VW2viQBT+KzLPISRGRX0rFWGh24ItvnTLMGZOdGBy6VxaXfG/75lkotZe1kIftrC+nduc7/s8H7nfEsHJmPSAR/EoHqRJnCTdKOoOe/FikCziLk8YQEwCUrAcsFNBWiqO8ROT1iW22wutwXRm8GhBm85FVakSizQOU6sUFGa3w3YudCXZZu6nMJOuhORYJ+P7h4BUTOECA4qMtyelcxFKtgCJrbMW4ilks6lczMvU5oiLijZ55ScnvtL5McEKDjk4cRQQWBsoOCCQjEkNAclZwZkp1YaMjbKYUMD4TSE3+46VKExDNGdrLX7j5l7k+jJAZqkXYR9SL1CTzibMsFt8OTVW7fUqRQq60YRDxqw0l8e5puGmMqIsmhHDFrKdLqXNi+tGEbJ/4Oj/sBpBQOV4OuQNrex2VT7PWpBTUdSSeIqyTJncR8wYJRbWODhbAhJqjXNWVaJYUncUoh5GKHm4lBiEmSyfcacWyyJkqcMdoqosnGJ+UqfnTAlH4ic+g8O7gOiNvpRM6wMV1JA+WoekIeYp0FqFWgJaX4IbTpWozAWuegIPfBd4D0TdDy8MDgdVn74+8oBqbp9qw4zVv2wUJdzngL8+/r+1f84ZZ+BunTEVILl+g4h3hoEccRqgDbGX5rjzxc7cF/f++DKDxIOo/v23yb9rk0X/o3NLR4frOnrzYJU1jUf94TDuUdwNqqIRZe77Qb0BXrvlxefl0+44A27rjrv6DN6G3xrkNHd1PNu5bgreGP0v88XwOznC0/j2lnjPCA9/AD8ffNA1CQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=889ecbf047b94b9441699530116d4359"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Asset Request Approval Flow">670dcffc47b94b9441699530116d4349</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>ba0ab175-6a85-49f4-8113-50489f328f6f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 12:54:39</sys_created_on>
+        <sys_id>c70b1f38473d4b9441699530116d4396</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 12:55:52</sys_updated_on>
+        <ui_id>a0914c37-a4cf-4bb4-afba-da9459c9da21</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2V22oiQRCGX0X6WmTGE+qdRISFbAImeJMNTTldakPPIX1IdMV33+qZHjUmGwzkYgPrXdeh+//L+piHHZOCjVgXRRQP437SiTuddhS1B9140e8s4rboAGLMmiyDFKlSY5JrQednUM4HdruxMWgbM3xyaGxjXBQ6pySPW4nTGjO731O5kKZQsJ2HLooka6kE5dno4bHJCtD0gEXNRruz1KUKFSxQUemslngu2W4LfxZ54lLSxWUdvA6dk5Bp/JhQhpq8nDhqMtxYzASSkCUog02WQibA5nrLRlY7CmgEcZup7aFiLTNbGU1hY+Rverkb+bolkrMkDOFw5GFAVXg5AQt3dHNinT7MK5cJmmomApfglL06jVUFt4WVeVa1WFioujtXLs1uqomwwwUn/4czJAIL79Mrr2wt79b5y6wWOZVZOZJgUeUJqMMJrNVy4ayXs2OosJxxCkUhsxX3SyHLZpKStlaKDq2lyl/oTSNXWQsSr7tFU4XWlOKTMjwHLb2Jn3QNNe+bzGzNlQJjjlZohvzJeSWVsWCBl1MoR8DLTfDNiZaFHdNTzxiE75uBgaj94YbhcaHK1TcnDOhq97mxYJ355aKoI2hDYIWaQ8kDircMXNj1OU4ucFFzMpWohHnHVuDEYkpyLfLK5mtU7kOyMQ/JAy1fhkvcj8rff2j+XWgWvY/WLRket+vkziM4Gx4Pe4NB3OX0NuqCRxz814QHNt5C8+pj82k6LpBb03FfrsH78mtAzmPXp72NmyoRwOh9GReD70REsPHtkfgbCI9/ANtYiyhDCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c70b1f38473d4b9441699530116d4396"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=670dcffc47b94b9441699530116d4349"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=670dcffc47b94b9441699530116d4349"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=670dcffc47b94b9441699530116d4349^sys_idNOT IN768b937c473d4b9441699530116d436f,b57ad3b8473d4b9441699530116d432c"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7e8b937c473d4b9441699530116d436e</block>
+        <comment/>
+        <connected_to>ba0ab175-6a85-49f4-8113-50489f328f6f</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Request Approval Flow">670dcffc47b94b9441699530116d4349</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 12:56:49</sys_created_on>
+        <sys_id>768b937c473d4b9441699530116d436f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 12:57:23</sys_updated_on>
+        <ui_id>68eb5cab-a277-4187-9237-30c72c501f99</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bd7ad3b8473d4b9441699530116d432b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Asset Request Approval Flow">670dcffc47b94b9441699530116d4349</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 12:52:06</sys_created_on>
+        <sys_id>b57ad3b8473d4b9441699530116d432c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Enterprise Asset Management">18234c104775079441699530116d43b3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 12:54:39</sys_updated_on>
+        <ui_id>ba0ab175-6a85-49f4-8113-50489f328f6f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWaAsy69b4CBAgbYBmiCXNhBWJGUTpUSVpOKohv+9Sz1sI3FRB82xN3O4u5wZDq0d0bWramfv9ZW1cl2S5bfHgMjSY/h7RyQnS7KAJE8imrB4PI3HlI7nkyibxlk05jGIyZQEpIRCYCXTJZdO6hKhJ1C1x3a7xXw2S6bzxUhkCR9Nsng2ypJkMppP6HRBOYsYzUOoKqOxJ7UOnNjvv9eUxrxDBcd5XNpKQfPwzmPZRipuRC+9AoNKnDBkuXuxdakVCjKhsHR14sUZe1xTecg6I8t1v/7Ut94NoDbcUxnTgIhnJ0qOlJc5KCsCUkDJwWnTkKUzNQJGAL8tVXOo2MjS4TTia5+t/CX8JEp9ZS5QFxPd7mGZ9h53cH4NDpBKzVxt+lK20ZIJ2znCRQ61cqtTrCu4rVqVbYuDTA3dWtVF+aUzgxwGDFeKSG2RhKi8Us+9F5LfbfT268DyRpatK/2m0gzUYQUOvctq5/nsiFCiwEFpgReOjqb+1mXbjFyKcK1wEeZKb/FQn/8QmCceorEQ3iB+3cIPYKRX8RnHYDNmwaaWGVkN2trDyT4gtrErBdYeNaK56c/aM+wU99rSzh7f0g66woOfRC9jH/QvL6eQRwtM8tm4QXwmWmkLHJ/f65fz5tBfwOJV6D90Wf4zv7fkP/pL/nvkogeQJP/z/8/59zQzsJKl7bcCx/m/oHd8AI8+wN2hB7OZtMjt3mMfhy+U32gwUZKdQlttfnhVR2z/G7tVWuvrBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=670dcffc47b94b9441699530116d4349"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=670dcffc47b94b9441699530116d4349"/>
     <sys_documentation action="INSERT_OR_UPDATE">
