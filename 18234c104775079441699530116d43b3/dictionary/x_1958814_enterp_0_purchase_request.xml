@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="46211dd447bd079441699530116d43d3" label="Purchase Request" max_length="40" name="x_1958814_enterp_0_purchase_request" type="collection">
+        <element choice="1" label="Brand" max_length="40" name="brand" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canon" sequence="6" value="canon"/>
+                <element inactive_on_update="false" label="Asus" sequence="4" value="asus"/>
+                <element inactive_on_update="false" label="Lenovo" sequence="2" value="lenovo"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="HP" sequence="1" value="hp"/>
+                <element inactive_on_update="false" label="Epson" sequence="7" value="epson"/>
+                <element inactive_on_update="false" label="Dell" sequence="0" value="dell"/>
+                <element inactive_on_update="false" label="Samsung" sequence="5" value="samsung"/>
+                <element inactive_on_update="false" label="Acer" sequence="3" value="acer"/>
+            </choice>
+        </element>
         <element choice="1" label="Purchase Status" mandatory="true" max_length="40" name="purchase_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
@@ -11,6 +24,8 @@
         </element>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="Purchase Number" max_length="40" name="purchase_number" type="string"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Asset Name" max_length="40" name="asset_name" type="string"/>
         <element label="Estimated Cost" max_length="38" name="estimated_cost" type="decimal"/>
         <element label="Expected Delivery Date" max_length="40" name="expected_delivery_date" type="glide_date"/>
         <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="x_1958814_enterp_0_vendor" type="reference"/>

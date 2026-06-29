@@ -1,186 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="ba21919047bd079441699530116d430d" sys_domain="global" table="x_1958814_enterp_0_purchase_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>asset_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>03dc351c47f1479441699530116d4375</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>7dd69d9147b90f9441699530116d438a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
-            <type>.begin_split</type>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>b1d69d9147b90f9441699530116d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>31d69d9147b90f9441699530116d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchase_status</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>8fdc351c47f1479441699530116d4375</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>bdd69d9147b90f9441699530116d43a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantity</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>0fdc351c47f1479441699530116d4376</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>3dd69d9147b90f9441699530116d43a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchase_number</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>8bdc351c47f1479441699530116d4377</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>b9d69d9147b90f9441699530116d43a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estimated_cost</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>cbdc7d5c47f1479441699530116d4396</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>39d69d9147b90f9441699530116d43a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expected_delivery_date</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>4bdc7d5c47f1479441699530116d4397</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>b5d69d9147b90f9441699530116d43aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>c7dc7d5c47f1479441699530116d4398</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>35d69d9147b90f9441699530116d43ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>47dc7d5c47f1479441699530116d4399</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>b1d69d9147b90f9441699530116d43ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requested_date</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:10</sys_created_on>
-            <sys_id>c3dc7d5c47f1479441699530116d439a</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>31d69d9147b90f9441699530116d43ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:10</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requested_by</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:11</sys_created_on>
-            <sys_id>43dc7d5c47f1479441699530116d439b</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>bdd69d9147b90f9441699530116d43ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:11</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>asset_category</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:11</sys_created_on>
-            <sys_id>cfdc7d5c47f1479441699530116d439b</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>3dd69d9147b90f9441699530116d43ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:11</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>remarks</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:11</sys_created_on>
-            <sys_id>4fdc7d5c47f1479441699530116d439c</sys_id>
+            <sys_created_on>2026-06-29 16:34:00</sys_created_on>
+            <sys_id>8ad69d9147b90f9441699530116d43af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:11</sys_updated_on>
+            <sys_updated_on>2026-06-29 16:34:00</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-26 16:46:11</sys_created_on>
-            <sys_id>cbdc7d5c47f1479441699530116d439d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1958814_enterp_0_purchase_request" sys_domain="global" view="Default view">ba21919047bd079441699530116d430d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-26 16:46:11</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
